@@ -1,0 +1,39 @@
+{
+  "bots": [
+{
+      "host": "sus.shhnowisnottheti.me",
+      "username": "FNFBoyfriendBotX",
+      "version":"1.19.4",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1106393295757787216",
+      
+        "commandPrefix": "~"
+      }
+    }, 
+  {
+  
+      "host": "167.235.79.88",
+      "username": "FNFBoyfriendBotX",
+    "port":"49309",  
+    "version":"1.19.4",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1106444369529159680",
+        
+        "commandPrefix": "~"
+      }
+    }
+    
+  ]
+}

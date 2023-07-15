@@ -1,0 +1,111 @@
+
+{
+  "bots": [
+{
+      "host": "kaboom.pw",
+      "username": "FNFBoyfriendBotX",
+      "version":"1.20.1",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1106441703046529084",
+        "invite": "https://discord.gg/GCKtG4erux",
+        "commandPrefix": "~"
+      }
+    }, 
+
+
+    {
+      "host": "kitsune.icu",
+    
+      "username": "FNFBoyfriendBotX",
+      "version":"1.20.1",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1106442430481449051",
+        "invite": "https://discord.gg/GCKtG4erux",
+        "commandPrefix": "~"
+      }
+    }, 
+
+    {
+      "host": "45.9.27.60",
+    
+      "username": "FNFBoyfriendBotX",
+      "version":"1.20.1",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1114036256951783514",
+        "invite": "https://discord.gg/GCKtG4erux",
+        "commandPrefix": "~"
+      }
+    }, 
+   {
+      "host": "kaboom.fusselig.xyz",
+      "version":"1.20.1",
+      "username": "FNFBoyfriendBotX",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1106393124110086174",
+        "invite": "https://discord.gg/GCKtG4erux",
+        "commandPrefix": "~"
+      }
+      },
+  
+    {
+      "host": "iucc.unreach.host",
+     
+      "username": "FNFBoyfriendBot",
+      "version":"1.20.1",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1120148069216944230",
+        "invite": "https://discord.gg/GCKtG4erux",
+        "commandPrefix": "~"
+      }
+    },
+   
+    {
+      "host": "discordtonystark.com",
+    
+      "version":"1.20.1",
+      "username": "FNFBoyfriendBotX",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      },
+
+      "discord": {
+        "channelId": "1106445957463281815",
+        "invite": "https://discord.gg/GCKtG4erux",
+        "commandPrefix": "~"
+      }
+    }
+   
+  ]
+}
