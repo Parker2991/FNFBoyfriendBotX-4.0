@@ -53,7 +53,7 @@ const bots = [
     name: { text: 'ChipmunkBot Old', color: 'green'  },
     authors: ['_ChipMC_'],
     foundation: 'NodeJS/Node-Minecraft-Protocol',
-    prefixes: ["test: " ,"'" ]
+   
   },
    {
     name: { text: 'TestBot', color: 'aqua'  },
