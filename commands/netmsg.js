@@ -15,7 +15,7 @@ module.exports = {
           { color: 'dark_red', text: 'Bot',bold: true },
           { color: 'black', text: 'X', bold: true },
         bot.options.host,
-        context.source.player.displayName,
+        context.source.player.displayName ?? context.source.player.profile.name,
         message
       ]
     }

@@ -12,7 +12,7 @@ function inject (bot) {
     const source = new CommandSource(data.sender)
     source.sendFeedback = message => {
       const prefix = {
-        translate: '[%s%s%s%s][%s][%s] ',
+        translate: '[%s%s%s%s][%s][%s][%s] ',
         bold: true,
         color: 'dark_gray',
         with: [
@@ -22,7 +22,7 @@ function inject (bot) {
           { color: 'black', text: 'X' },
           { color: 'black', text: 'Ultimate' },
           { color: 'green', text: '4.0 Alpha' },
-        
+         { color: 'green', text: 'Part 2' },
         ]
       }
       

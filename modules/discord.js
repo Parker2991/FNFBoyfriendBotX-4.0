@@ -38,7 +38,7 @@ function inject (bot, options) {
     //sus
     discordQueue = ''
   }, 1000)
-
+//???
   function sendDiscordMessage (message) {
     discordQueue += message
   }
@@ -66,7 +66,7 @@ function inject (bot, options) {
       message3...
       ```?
     */
-    sendDiscordMessage('```ansi\n' + ansi.replaceAll('`', '\u200b`') + '\n```')
+    sendDiscordMessage('```ansi\n' + ansi.replaceAll('`', '\u200b`').substring(0, 2000) + '\n```')
   }
 
   bot.on('message', message => {
@@ -79,7 +79,7 @@ function inject (bot, options) {
     if (message.channel.id !== bot.discord.channel.id) return
 
     if (message.content.startsWith(bot.discord.commandPrefix)) { // TODO: Don't hardcode this
-      const source = new CommandSource(null)
+      const source = new CommandSource({ profile: { name: message.member.displayName } })
       source.sendFeedback = message => {
         sendComponent(message)
       }

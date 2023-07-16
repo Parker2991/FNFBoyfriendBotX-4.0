@@ -4,7 +4,7 @@ module.exports = {
   name: 'crash',
   
   execute (context) {
-  throw new CommandError('command temporarily disabled until hashing is implemented')
+throw new CommandError('command temporarily disabled until hashing is implemented')
 
     const bot = context.bot
 
