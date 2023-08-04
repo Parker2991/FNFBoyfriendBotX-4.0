@@ -1,7 +1,6 @@
 beta 0.1 - 0.2 0.5 release 2022 (first release)
 ParkerBot/DEMONBOT/Woomybot/Boyfriend
- ehh nothing much just the release of the beta
-https://replit.com/@Parker2991/Boyfriend-botname-not-finalized-yet#index.js
+ ehh nothing much just the release of the betas
 --------------------------------------
 beta 1.0 release 1/25/23 codename: in console test.
 original commands:!cloop bcraw,!cloop sudo,!troll,!say,!op (broke),!deop (broke), !gms (broke),!freeze,!icu <--- these commands no longer can be used in game but in console for beta 1.0
@@ -64,8 +63,18 @@ Bug fixes
 3.0.9
 commands added:Help(finally added after about a year),consolelog(added cuz yes),cloopconsolelog(added cuz yes)
 -------------------
-4.0 beta Codename:FNFBoyfriendBot Ultimate
+4.0 beta Codename:FNFBoyfriendBot Ultimate 
 all of the command removed and or rewriten from version 3.0.9 
 Commands added or rewriten:ban,buyrealminecraft,cloop,discord,echo,errortest,freeze,help,icu,info,kick,bots,skids,romncitrash,say,selfdestruct,serversuicidal,sudo,test,trol,troll
+(note that this is different and is not CommandModules)Modules Added:discord,chat,chat_command_handler,command_manager,position,registry,reconnect,command_core
+CustomChats added:kaboom(for normal chat)
+(note that this is different and is not Modules)CommandModules Added:command_error,Command_source
 a beta release for rn
 -----------------------------
+4.0 Alpha Codename:FNFBoyfriendBot Ulitmate
+Commands added: calculator,ckill,evaljs,urban,crash,cloopcrash,core,list,ping,netmsg,skin,tpr 
+Commands Removed:Buyrealminecraft
+(note that this is different and is not CommandModules)Modules Added:op selfcare,gmc selfcare,vanish selfcare,cspy selfcare,console
+(note that this is different and is not Modules)CustomChats Added:u2O3a(for custom chat)
+added util with between(for urban) eval_colors(for evaljs)
+----------------------------------

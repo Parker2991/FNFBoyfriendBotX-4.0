@@ -6,7 +6,7 @@ module.exports = {
      
     const message = context.arguments.join(' ')
     const bot = context.bot
-
+//throw new CommandError('ohio')
     const component = {
       translate: '[%s%s%s%s] [%s] %s \u203a %s',
       with: [

@@ -3,10 +3,10 @@ const CommandError = require('../CommandModules/command_error')
 let timer = null
 
 module.exports = {
-  name: 'trol',
+  name: 'ckill',
 
   execute (context) {
-   throw new CommandError('command temporarily disabled until hashing is implemented')
+  throw new CommandError('command temporarily disabled until hashing is implemented')
     const target = context.arguments.join(' ')
     const bot = context.bot
 const args = context.arguments

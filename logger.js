@@ -7,19 +7,19 @@ const logFolder = path.join(__dirname, 'logs');
 const logFileName = `${timestamp}.log`;
 const logFilePath = path.join(logFolder, logFileName);
 
-const logStream = fs.createWriteStream(logFilePath, { flags: 'a' });
+//const logStream = fs.createWriteStream(logFilePath, { flags: 'a' });
 
-function log (message, toFile = true, toConsole = true) {
+function log (message, toFile = false, toConsole = true) {
   const now = new Date().toLocaleString();
 
-  const toWrite = `[${now}] ${message}`
+  //const toWrite = `[${now}] ${message}`
   
-  if (toFile) logStream.write(toWrite + '\n');
+ // if (toFile) logStream.write(toWrite + '\n');
   if (toConsole) console.log(toWrite);
 };
 
 if (!fs.existsSync(logFolder)) {
   fs.mkdirSync(logFolder);
 }
-
+//ohio
 module.exports = log

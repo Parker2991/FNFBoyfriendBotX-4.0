@@ -4,7 +4,7 @@ const CommandError = require('../CommandModules/command_error.js')
 
 function inject (bot, options) {
   bot.commandManager = {
-    prefix: options.commands?.prefix ?? 'default.',
+    prefix: options.commands?.prefix ?? 'default~',
     commands: {},
 
     execute (source, commandName, args) {
@@ -12,6 +12,8 @@ function inject (bot, options) {
 
       try {
         if (!command || !command.execute) throw new CommandError({ translate: 'Unknown command: %s', with: [commandName] })
+
+        if (command.consoleOnly && !source.console) throw new CommandError({ translate: 'This command can only be executed via console', color: 'red' })
 
         return command.execute({ bot, source, arguments: args })
       } catch (error) {

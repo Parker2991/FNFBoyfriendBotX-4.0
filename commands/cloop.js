@@ -1,4 +1,5 @@
 const CommandError = require('../CommandModules/command_error')
+//var validate = require('../CommandModules/hash')
 //let timer = null
 
 module.exports = {

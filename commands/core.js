@@ -7,10 +7,10 @@ module.exports = {
   const bot = context.bot
     const message = context.arguments.join(' ')
 
-    
+     if (message.startsWith('/')) {
       bot.core.run(message.substring(1))
       return
-    
+     }
     
   }
 }

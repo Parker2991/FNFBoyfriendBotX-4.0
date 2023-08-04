@@ -1,6 +1,7 @@
 class CommandSource {
-  constructor (player) {
+  constructor (player, console = false) {
     this.player = player
+    this.console = console
   }
 
   sendFeedback () {}

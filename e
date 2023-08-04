@@ -64,3 +64,21 @@
         "commandPrefix": "~"
       }
     }, 
+ {
+      "host": "chipmunk.land",
+      "version":"1.20.1",
+      "username": "FNFBoyfriendBotX",
+      "reconnectDelay": 6000,
+
+      "commands": {
+        "prefix": "~"
+      
+      },
+
+
+      "discord": {
+        "channelId": "1134168126083305603",
+        "invite": "https://discord.gg/GCKtG4erux",
+        "commandPrefix": "~"
+      }
+      },

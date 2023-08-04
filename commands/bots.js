@@ -33,10 +33,17 @@ const bots = [
     foundation: 'NodeJS/mineflayer or Java/mcprotocollib idfk',
     prefixes: ['Z]']
   },
+    {
+    name: { text: 'ABot', color: 'gold', bold:true }, // TODO: Gradient
+    exclaimer: '',
+     authors: ['yfd'],
+    foundation: 'NodeJS/Node-Minecraft-Protocol',
+    prefixes: ['<']
+  },
   {
   name: { text: 'FardBot', color: 'dark_purple' },
     authors: ['_yfd'],
-    exclaimer: '',
+    exclaimer: 'bot is dead lol',
     foundation: 'NodeJS/Mineflayer',
     prefixes: ['<']
   },
@@ -72,7 +79,7 @@ const bots = [
   {
     name: { text: 'ChomeNS Bot Java', color: 'yellow'},
     authors: ['chayapak'],
-  exclaim: 'shoutout to chayapak and chip for helping in the rewrite',
+  exclaimer: 'wow its my bot !! ! 4374621q43567%^&#%67868-- chayapak',
     foundation: 'Java/MCProtocolLib',
     prefixes: ['*', 'cbot ', '/cbot ']
   },
@@ -81,7 +88,7 @@ const bots = [
     authors: ['chayapak'],
 
     foundation: 'NodeJS/Node-Minecraft-Protocol',
-    prefixes: ['Idk rn ima have to ask chayapak but its probably * ']
+    prefixes: ['*', 'cbot', '/cbot']
   },
   {
     name: { text: 'RecycleBot', color: 'dark_green'},

@@ -7,6 +7,8 @@ module.exports = {
     const commandList = []
 
     for (const command of context.bot.commandManager.getCommands()) {
+      if (command.consoleOnly && !context.console) continue
+      
       if (commandList.length !== 0) commandList.push(' ')
       commandList.push(String(command.name))
     }
