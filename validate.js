@@ -1,4 +1,4 @@
-const CommandError = require('../CommandModules/command_error')
+mconst CommandError = require('../CommandModules/command_error')
 function hash() {
   const crypto = require("crypto");
   var hash = crypto.createHash("md5");

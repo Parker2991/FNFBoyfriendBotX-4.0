@@ -79,7 +79,7 @@ function inject (bot, options) {
     if (message.channel.id !== bot.discord.channel.id) return
 
     if (message.content.startsWith(bot.discord.commandPrefix)) { // TODO: Don't hardcode this
-      const source = new CommandSource({ profile: { name: message.member.displayName } })
+      const source = new CommandSource({ profile: { name: message.member.displayName } }, { discord: true, console: false }, false, message)
       source.sendFeedback = message => {
         sendComponent(message)
       }

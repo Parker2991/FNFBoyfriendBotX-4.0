@@ -1,5 +1,6 @@
 { pkgs }: {
 	deps = [
+    pkgs.python39Full
     pkgs.nodejs
     pkgs.nodejs-18_x
     pkgs.nodejs-16_x

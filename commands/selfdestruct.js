@@ -5,8 +5,9 @@ let timer = null
 module.exports = {
   name: 'selfdestruct',
 //why i put it in here probably cuz so it can be rewritten or smh idk
+hashOnly: true, 
   execute (context) {
-    throw new CommandError('command temporarily disabled until hashing is implemented')
+   
 //bot went brr
 
     //ima just connect to your server to work on the bot ig

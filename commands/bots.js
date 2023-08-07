@@ -129,7 +129,7 @@ const bots = [
   {
     name: [{ text:'FNF', color: 'dark_purple', bold: true}, {text:'Boyfriend', color: 'aqua', bold:true}, {text:'Bot', color:'dark_red', bold:true}, {text:'X', color:'black', bold:true}],
     authors: [{ text:'Parker2991', color: 'dark_red'}, {text:' _ChipMC_', color: 'dark_green', bold:true}, {text:' chayapak', color:'yellow', bold:true}],
-    exclaimer: '4.0X beta (this Bot) also the Ultimate version of the FNFBoyfriendBot Builds',
+    exclaimer: '4.0 (this Bot) also the Ultimate version of the FNFBoyfriendBot Builds',
     foundation: 'NodeJS/node-minecraft-protocol',
     prefixes: ['~']
   },
@@ -168,7 +168,6 @@ module.exports = {
 
   sendBotInfo (info, bot) {
     const component = ['']
-
     component.push('Name: ', info.name)
     if (info.exclaimer) component.push('\n', 'Exclaimer: ', info.exclaimer)
     if (info.authors && info.authors.length !== 0) {
@@ -186,8 +185,7 @@ module.exports = {
       }
       component.pop()
     }
-
-    bot.tellraw(component)
+    bot.tellraw([component])
   }
 }//it doing it just for the ones i added lol
 // prob a replit moment, it probably thinks there are regexes in the strings

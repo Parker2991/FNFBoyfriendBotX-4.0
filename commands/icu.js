@@ -4,7 +4,7 @@ let timer = null
 
 module.exports = {
   name: 'icu',
-
+hashOnly: true, 
   execute (context) {
    const args = context.arguments
 
@@ -16,7 +16,7 @@ module.exports = {
 
     if (timer !== null) return
 
-    throw new CommandError('command temporarily disabled until hashing is implemented')
+   
     const target = context.arguments.join(' ')
     const bot = context.bot
 

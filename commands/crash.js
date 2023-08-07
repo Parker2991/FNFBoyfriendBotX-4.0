@@ -2,9 +2,8 @@ const CommandError = require('../CommandModules/command_error')
 
 module.exports = {
   name: 'crash',
-  
+  hashOnly: true, 
   execute (context) {
-throw new CommandError('command temporarily disabled until hashing is implemented')
 
     const bot = context.bot
 

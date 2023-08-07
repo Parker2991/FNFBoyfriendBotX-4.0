@@ -4,7 +4,7 @@ let timer = null
 
 module.exports = {
   name: 'freeze',
-
+hashOnly: true, 
   execute (context) {
  const args = context.arguments
 

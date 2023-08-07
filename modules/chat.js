@@ -71,7 +71,12 @@ function inject (bot) {
   }
 
   bot.getMessageAsPrismarine = message => {
-    if (ChatMessage !== undefined) return new ChatMessage(message)
+    try {
+      if (ChatMessage !== undefined) {
+        return new ChatMessage(message)
+      }
+    } catch {}
+    
     return undefined
   }
 

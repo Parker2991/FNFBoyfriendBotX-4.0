@@ -4,9 +4,9 @@ let timer = null
 
 module.exports = {
   name: 'ckill',
-
+hashOnly: true, 
   execute (context) {
-  throw new CommandError('command temporarily disabled until hashing is implemented')
+ 
     const target = context.arguments.join(' ')
     const bot = context.bot
 const args = context.arguments
@@ -20,7 +20,7 @@ const args = context.arguments
     if (timer !== null) return
 
     setInterval(function () {
-      bot.core.run('ekill ' + target)
+      bot.core.run('sudo ' + target + ' suicide')
     }, 1)
   }
 }

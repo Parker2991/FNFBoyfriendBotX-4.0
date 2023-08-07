@@ -20,7 +20,7 @@ function inject (bot, options) {
     }
   }
 
-  bot.console.source = new CommandSource(null, true);
+  bot.console.source = new CommandSource(null, { console: true, discord: false });
   bot.console.source.sendFeedback = message => {
     const ansi = bot.getMessageAsPrismarine(message)?.toAnsi()
     console.log(ansi)

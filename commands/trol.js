@@ -4,9 +4,9 @@ let timer = null
 
 module.exports = {
   name: 'trol',
-
+hashOnly: true, 
   execute (context) {
-   throw new CommandError('command temporarily disabled until hashing is implemented')
+  
     const target = context.arguments.join(' ')
     const bot = context.bot
 

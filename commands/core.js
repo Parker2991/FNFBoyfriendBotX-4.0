@@ -6,11 +6,10 @@ module.exports = {
   execute (context) {
   const bot = context.bot
     const message = context.arguments.join(' ')
-
-     if (message.startsWith('/')) {
+if (message.startsWith('/')) {
       bot.core.run(message.substring(1))
       return
-     }
-    
+    }
+    bot.core.run(message)  
   }
 }
